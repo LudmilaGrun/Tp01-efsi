@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title></title>
 </head>
+
 <body>
     <header>
         <h1>TP1 - Ejercicios de Javascript</h1>
@@ -15,63 +17,95 @@
         <input id="input1" placeholder="Ingrese nombre">
         <button onclick="formatearNombre(input1.value)">Ejercicio 1 - Formatear Nombre</button>
         <p id="Ejercicio1"></p>
+
         <input id="input2" placeholder="Ingrese texto">
         <button onclick="contarLetras(input2.value)">Ejercicio 2 - Contar letras</button>
         <p id="Ejercicio2"></p>
-        <input id="n1" placeholder="Número 1">
-        <input id="n2" placeholder="Número 2">
-        <input id="n3" placeholder="Número 3">
+
+        <input id="n1" placeholder="Ingrese un numero">
+        <input id="n2" placeholder="Ingrese otro numero">
+        <input id="n3" placeholder="Ingrese otro numero">
         <button onclick="maximo(n1.value, n2.value, n3.value)">Ejercicio 3 - Número mayor</button>
         <p id="Ejercicio3"></p>
-        <input id="pass" placeholder="Password">
+
+        <input id="pass" placeholder="Ingrese una contraseña">
         <button onclick="validarPassword(pass.value)">Ejercicio 4 - Validar password</button>
         <p id="Ejercicio4"></p>
-        <input id="array5" placeholder="Ej: 4,7,1">
+
+        <input id="array5" placeholder="Ingresa un array de numeros, por ejemplo: 4,7,1">
         <button onclick="sumarArray(array5.value)">Ejercicio 5 - Suma de array</button>
         <p id="Ejercicio5"></p>
-        <input id="array6" placeholder="Ej: 9,6,4,3,7">
+
+        <input id="array6" placeholder="Ingresa otro array de numeros, por ejemplo: 9,6,4,3,7">
         <button onclick="numeroMayorDeUnArray(array6.value)">Ejercicio 6 - Número mayor de un array</button>
         <p id="Ejercicio6"></p>
+
         <input id="array7" placeholder="Ej: 1,2,3,4,5,6">
         <button onclick="filtrarPares(array7.value)">Ejercicio 7 - Filtrar pares</button>
         <p id="Ejercicio7"></p>
+
         <input id="nombre8" placeholder="Nombre">
         <input id="edad8" placeholder="Edad">
-        <button onclick="descripcionUsuario(nombre8.value, edad8.value)">Ejercicio 8 -  Descripción de usuario</button>
+        <button onclick="descripcionUsuario(nombre8.value, edad8.value)">Ejercicio 8 - Descripción de usuario</button>
         <p id="Ejercicio8"></p>
+
         <input id="nombre9" placeholder="Nombre">
         <input id="edad9" placeholder="Edad">
-        <button onclick="activarUsuario(nombre9.value, edad9.value)">Ejercicio 9 -  Activar usuario</button>
+        <button onclick="activarUsuario(nombre9.value, edad9.value)">Ejercicio 9 - Activar usuario</button>
         <p id="Ejercicio9"></p>
-        <button onclick="precioTotal()">Ejercicio 10 -  Precio total</button>
+
+        <button onclick="precioTotal()">Ejercicio 10 - Precio total</button>
         <p id="Ejercicio10"></p>
-        <button onclick="obtenerNombres()">Ejercicio 11 -  map</button>
+
+        <button onclick="obtenerNombres()">Ejercicio 11 - map</button>
         <p id="Ejercicio11"></p>
-        <button onclick="usuariosMayores()">Ejercicio 12 - filter  </button>
+
+        <button onclick="usuariosMayores()">Ejercicio 12 - filter </button>
         <p id="Ejercicio12"></p>
+
         <button onclick="sumaEdades()">Ejercicio 13 - reduce </button>
         <p id="Ejercicio13"></p>
+
         <button onclick="ejercicio14()">Ejercicio 14 - Destructuring</button>
         <p id="Ejercicio14"></p>
+
         <button onclick="ejercicio15()">Ejercicio 15 - Spread operator </button>
         <p id="Ejercicio15"></p>
-        <input type="text" id="productos" placeholder="Ej: 60,banana,90,frutilla,15,uvas">
+
+        <input id="productos" placeholder="Nombre y precios productos">
         <input id="buscar16" placeholder="Nombre producto">
         <button onclick="buscarProducto(productos.value, buscar16.value)">Ejercicio 16 - Buscar producto </button>
         <p id="Ejercicio16"></p>
-        <input type="text" id="productos17" placeholder="Ej:60,banana,90,frutilla,15,uvas">
-        <button onclick="productosCaros(productos17.value)">Ejercicio 17 - Productos caros </button>
+
+        <input type="text" id="inputProductos17" placeholder="10,banana,50,pera,10,uva">
+        <button onclick="productosCaros(inputProductos17.value)">Ejercicio 17 - Mostrar caros</button>
         <p id="Ejercicio17"></p>
+
         <input id="array18" placeholder="Ej: 1,2,3,4">
         <button onclick="promedio(array18.value)">Ejercicio 18 - Promedio </button>
         <p id="Ejercicio18"></p>
-       
+
+
+        <button onclick="obtenerUsuarios()">Ejercicio 19 - Devolver usuarios</button>
+        <p id="Ejercicio19"></p>
+
+        <input type="text" id="input20" placeholder=" ingresar el id del usuario">
+        <button onclick= "obtenerUsuarioPorId(input20.value)">Ejercicio 20 - Buscar por ID</button>
+        <p id="Ejercicio20"></p>
+
+        <button onclick="obtenerMayores()">Ejercicio 21 - Usuarios mayores de edad</button>
+        <p id="Ejercicio21"></p>
+
+        <input type="text" id="input22N" placeholder=" ingresar el nombre del usuario">
+        <input type="text" id="input22E" placeholder=" ingresar la edad del usuario">
+
+        <button onclick="crearUsuario(input22N.value, input22E.value)">Ejercicio 22 - Crear usuario</button>
+        <p id="Ejercicio22"></p>
+
     </main>
     <footer>
-    </footer>  
+    </footer>
     <script src="Hola.js"></script>
 </body>
+
 </html>
-
-
-
